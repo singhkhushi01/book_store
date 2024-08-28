@@ -1,0 +1,14 @@
+.container-card{
+    display: inline-flexbox;
+}
+
+
+.input-box{
+    border: 5px;
+}
+.searchbar{
+    margin-left: 30%;
+    height: 50%;
+    width: 50%;
+
+}

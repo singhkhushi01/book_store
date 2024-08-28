@@ -1,0 +1,54 @@
+html,body{
+    height: 100%;
+    width: 100%;
+  
+  }
+  #root{
+    height: 100%;
+    width: 100%; 
+  }
+  .continer{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+   
+  }
+  .Account
+  {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+  }
+  .para{
+    margin: 10px 0px;
+  }
+  .formComponent{
+  
+    display: flex;
+  
+    justify-content: center;
+    flex-direction: column;
+  }
+  p{
+   margin-bottom: 0px !important;
+  }
+  .button > button{
+    width: 100%;
+  }
+  .button:disabled{
+    cursor:not-allowed;
+  }
